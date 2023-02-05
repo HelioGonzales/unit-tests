@@ -14,5 +14,4 @@ function compact(array) {
   return arr;
 }
 
-// console.log(compact([0, 1, false, 2, "", 3]));
 module.exports = compact;

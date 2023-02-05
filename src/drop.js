@@ -11,6 +11,4 @@ function drop(array, n = 1) {
   return arr;
 }
 
-// console.log(drop([1, 2, 3]));
-// console.log(drop([1, 2, 3], 2));
 module.exports = drop;

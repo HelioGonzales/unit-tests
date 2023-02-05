@@ -11,8 +11,4 @@ function omit(object, paths) {
   return obj;
 }
 
-const object = { a: 1, b: "2", c: 3 };
-
-console.log(omit(object, ["a", "c"]));
-
 module.exports = omit;

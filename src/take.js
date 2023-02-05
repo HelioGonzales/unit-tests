@@ -15,6 +15,4 @@ function take(array, n = 1) {
   }
 }
 
-// console.log(take([1, 2, 3], 2));
-
 module.exports = take;

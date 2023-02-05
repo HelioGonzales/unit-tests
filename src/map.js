@@ -16,6 +16,4 @@ const map = (array, callback) => {
   return result;
 };
 
-console.log(map([1, 2, 3], (value) => value * 5));
-
 module.exports = map;

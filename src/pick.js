@@ -10,6 +10,4 @@ function pick(object, paths) {
   return obj;
 }
 
-console.log(pick({ a: 1, b: "2", c: 3 }, ["a", "c"]));
-
 module.exports = pick;
